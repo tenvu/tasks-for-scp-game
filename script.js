@@ -1,7 +1,7 @@
 const data = {
   "Class D": [
     "Follow guards to testing areas",
-    "Attempt escape through available routes",
+    "Attempt escape through exits",
     "Loot dropped keycards",
     "Avoid security patrols",
     "Survive hostile encounters",
@@ -15,6 +15,14 @@ const data = {
     "Free detained Class-D",
     "Engage Foundation security",
     "Hold surface zones"
+  ],
+
+  "Alpha-1": [
+    "Protect O5 members",
+    "Secure high-clearance zones",
+    "Respond to critical alerts",
+    "Eliminate internal threats",
+    "Escort O5 movement"
   ],
 
   "Foundation Personnel": {
@@ -73,7 +81,7 @@ const data = {
 
   "Intelligence Agency": [
     "Monitor facility communications",
-    "Track Chaos movement",
+    "Track Chaos movements",
     "Relay breach alerts",
     "Observe staff activity",
     "Coordinate with Internal Security"
@@ -84,17 +92,15 @@ const data = {
     "Fix keycard panels",
     "Restore generator power",
     "Repair lighting systems",
-    "Fix elevators",
     "Maintain security cameras"
   ],
 
   "Facility Executive": [
-    "Access administrative control rooms",
-    "Authorize sector lockdowns",
-    "Coordinate Security and Technical response",
-    "Issue evacuation orders",
-    "Override access when required",
-    "Remain protected during breaches"
+    "Access all administrative zones",
+    "Coordinate with departments",
+    "Monitor breaches",
+    "Ensure smooth operation of facility systems",
+    "Escort important personnel when needed"
   ],
 
   "Mobile Task Force": {
@@ -129,14 +135,6 @@ const data = {
       "Hold critical containment"
     ]
   },
-
-  "Alpha-1": [
-    "Protect O5 members",
-    "Secure high-clearance zones",
-    "Respond to critical alerts",
-    "Eliminate internal threats",
-    "Escort O5 movement"
-  ],
 
   "O5 Council": {
     "O5-1 (FD)": [
