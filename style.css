@@ -11,13 +11,7 @@ body {
 
 #ui1 {
   background: #2c2c2c;
-  background-image: repeating-linear-gradient(
-    45deg,
-    #303030,
-    #303030 12px,
-    #2c2c2c 12px,
-    #2c2c2c 24px
-  );
+  background-image: repeating-linear-gradient(45deg, #303030, #303030 12px, #2c2c2c 12px, #2c2c2c 24px);
   padding: 16px;
   display: flex;
   flex-direction: column;
@@ -45,11 +39,30 @@ body {
   border-radius: 8px;
   text-align: center;
   cursor: pointer;
-  transition: transform 0.2s, box-shadow 0.2s, background 0.2s;
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.option::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 200%;
+  height: 0.2em;
+  background: linear-gradient(90deg, #646cff, #00ffdd);
+  background-size: 200% 100%;
+  transform: translateX(-100%);
+  transition: transform 0.3s;
+}
+
+.option:hover::before {
+  transform: translateX(0);
 }
 
 .option:hover {
-  background: #555;
+  color: #fff;
   transform: scale(1.06);
   box-shadow: 0 0 14px #646cff;
 }
