@@ -1,194 +1,196 @@
 const data = {
-  "Class D": [
-    "Follow guards to testing areas",
-    "Attempt escape through exits",
-    "Loot dropped keycards",
-    "Avoid security patrols",
-    "Survive hostile encounters",
-    "Cooperate with Chaos Insurgency if freed"
+  "Class-D": [
+    "Group with other Class-D to start riots",
+    "Break doors during containment failures",
+    "Loot keycards from dead personnel",
+    "Enter SCP containment zones when breached",
+    "Side with Chaos Insurgency if freed",
+    "Escape through surface exits",
+    "Cause distractions for CI raids"
   ],
 
   "Chaos Insurgency": [
-    "Breach facility entrances",
-    "Disable generators",
-    "Sabotage security systems",
-    "Free detained Class-D",
-    "Engage Foundation security",
-    "Hold surface zones"
+    "Raid the facility from surface entrances",
+    "Breach containment doors",
+    "Free detained Class-D personnel",
+    "Steal SCPs or cause SCP breaches",
+    "Engage Foundation Security and MTF",
+    "Hold surface and Sector 1 access points"
   ],
 
-  "Alpha-1": [
-    "Protect O5 members",
-    "Secure high-clearance zones",
-    "Respond to critical alerts",
-    "Eliminate internal threats",
-    "Escort O5 movement"
+  "Security Department": [
+    "Prevent Class-D riots",
+    "Guard checkpoints and sector gates",
+    "Escort Class-D to testing chambers",
+    "Engage Chaos Insurgency raids",
+    "Respond to SCP containment breaches",
+    "Protect Foundation staff"
   ],
 
-  "Foundation Personnel": {
-    "Kitchen Chef": [
-      "Prepare food for staff",
-      "Deliver meals to cafeterias",
-      "Remain in safe zones",
-      "Avoid active breach areas"
-    ],
-    "Ethics Committee": [
-      "Observe Class-D treatment",
-      "Monitor testing rooms",
-      "Intervene in unethical testing",
-      "Report violations"
-    ],
-    "External Affairs": [
-      "Remain in administrative areas",
-      "Monitor exposure risk",
-      "Assist evacuation announcements",
-      "Coordinate with command"
-    ]
-  },
-
-  "Scientific Department": [
-    "Conduct SCP testing",
-    "Operate test chambers",
-    "Escort Class-D during experiments",
-    "Document SCP behavior",
-    "Evacuate labs during breaches"
+  "Internal Security": [
+    "Monitor Foundation personnel behavior",
+    "Detect CI infiltrators inside the facility",
+    "Detain rogue or compromised staff",
+    "Assist Security during lockdowns",
+    "Report infiltration attempts in Sector 1"
   ],
 
   "Medical Department": [
     "Heal injured personnel",
-    "Revive downed allies",
-    "Set up medical stations",
-    "Escort wounded to safety",
-    "Remain behind security lines"
-  ],
-
-  "Security Department": [
-    "Patrol facility sectors",
-    "Guard checkpoints",
-    "Escort Class-D",
-    "Respond to breach alarms",
-    "Engage Chaos Insurgency",
-    "Protect staff"
-  ],
-
-  "Internal Security": [
-    "Monitor Foundation personnel",
-    "Detain rogue staff",
-    "Investigate suspicious behavior",
-    "Assist O5 and Alpha-1",
-    "Enforce internal lockdowns"
-  ],
-
-  "Intelligence Agency": [
-    "Monitor facility communications",
-    "Track Chaos movements",
-    "Relay breach alerts",
-    "Observe staff activity",
-    "Coordinate with Internal Security"
+    "Revive downed players",
+    "Extract injured staff from breach zones",
+    "Perform emergency medical procedures",
+    "Remain behind Security protection"
   ],
 
   "Technical Department": [
     "Repair broken doors",
-    "Fix keycard panels",
     "Restore generator power",
-    "Repair lighting systems",
-    "Maintain security cameras"
+    "Fix electrical boxes",
+    "Extinguish facility fires",
+    "Repair burst pipes",
+    "Maintain containment systems"
   ],
 
+  "Scientific Department": [
+    "Conduct SCP testing using Class-D",
+    "Observe SCP reactions during experiments",
+    "Evacuate labs during breaches",
+    "Access Euclid containment zones",
+    "Coordinate with Security during experiments"
+  ],
+
+  "Foundation Personnel": {
+    "Observer": [
+      "Remain in administrative zones",
+      "Observe facility operations",
+      "Do not engage in combat",
+      "Evacuate during breaches"
+    ],
+    "Kitchen Chef": [
+      "Prepare meals for staff",
+      "Deliver food to cafeterias",
+      "Maintain kitchen equipment",
+      "Assist during emergencies"
+    ],
+    "Ethics Committee": [
+      "Monitor ethical conduct of experiments",
+      "Approve or deny Class-D testing",
+      "Document violations",
+      "Intervene if unethical practices occur"
+    ],
+    "External Affairs": [
+      "Manage public and media exposure",
+      "Coordinate misinformation during breaches",
+      "Assist evacuation announcements",
+      "Report externally relevant events"
+    ]
+  },
+
   "Facility Executive": [
-    "Access all administrative zones",
-    "Coordinate with departments",
-    "Monitor breaches",
-    "Ensure smooth operation of facility systems",
-    "Escort important personnel when needed"
+    "Access all administrative and restricted zones",
+    "Coordinate Security, MTF, and Foundation operations",
+    "Supervise containment and evacuation protocols",
+    "Authorize facility-wide procedures",
+    "Escort VIP personnel when needed"
   ],
 
   "Mobile Task Force": {
     "Nu-7": [
       "Secure surface zones",
-      "Respond to large-scale breaches",
-      "Support Security Department",
-      "Hold exterior areas"
+      "Engage Chaos Insurgency forces",
+      "Hold exterior breach points",
+      "Provide heavy fire support"
     ],
     "Beta-7": [
       "Contain hazardous SCP zones",
-      "Secure contaminated areas",
-      "Escort scientists",
-      "Support medical units"
+      "Operate in toxic/anomalous areas",
+      "Support medical extraction teams"
     ],
     "Epsilon-11": [
       "Recontain escaped SCPs",
-      "Sweep breached sectors",
-      "Secure control rooms",
-      "Enforce lockdowns"
+      "Sweep breached facility sectors",
+      "Escort scientists during emergencies",
+      "Enforce facility lockdowns"
     ],
     "Epsilon-9": [
-      "Track hostile entities",
-      "Secure forested zones",
+      "Track Euclid anomalies",
       "Scout breach areas",
-      "Support surface containment"
+      "Support sector containment operations"
     ],
     "Tau-5": [
-      "Engage extreme threats",
-      "Secure high-risk zones",
-      "Respond to catastrophic events",
-      "Hold critical containment"
+      "Respond to Keter-class breaches",
+      "Secure high-risk containment zones",
+      "Engage extreme anomalies",
+      "Operate in Sector 4"
     ]
   },
+
+  "Alpha-1": [
+    "Escort O5 members",
+    "Secure O5 movement routes",
+    "Eliminate internal threats",
+    "Respond to critical facility alerts",
+    "Remain with O5 at all times"
+  ],
 
   "O5 Council": {
     "O5-1 (FD)": [
       "Activate Alpha Warhead",
-      "Authorize facility lockdowns",
       "Override all access levels",
+      "Authorize facility lockdowns",
       "Move freely between sectors",
-      "Coordinate command response",
       "Remain protected by Alpha-1"
     ],
     "O5-2 (IS)": [
       "Activate Alpha Warhead",
-      "Authorize internal lockdowns",
-      "Detain Foundation personnel",
-      "Coordinate Internal Security",
+      "Authorize internal security operations",
+      "Order detainment of personnel",
+      "Coordinate Internal Security response",
       "Override access restrictions"
     ],
     "O5-3 (A1)": [
       "Activate Alpha Warhead",
       "Command Alpha-1 units",
-      "Secure O5 movement routes",
       "Respond to internal crises",
-      "Override security systems"
+      "Secure command zones",
+      "Coordinate facility response"
     ],
     "O5-4 (IA)": [
       "Activate Alpha Warhead",
-      "Monitor intelligence feeds",
-      "Track Chaos activity",
-      "Relay breach data",
-      "Coordinate Internal Security response"
+      "Track Chaos Insurgency activity",
+      "Recieve breach intelligence",
+      "Coordinate Internal Security and MTF"
     ],
     "O5-5 (MTF)": [
       "Activate Alpha Warhead",
-      "Deploy MTF units",
+      "Deploy Mobile Task Forces",
       "Authorize MTF entry",
-      "Coordinate breach response",
-      "Secure command zones"
+      "Coordinate large-scale responses",
+      "Support containment operations"
     ],
     "O5-7 (SD)": [
       "Activate Alpha Warhead",
       "Approve SCP testing",
-      "Monitor laboratory activity",
-      "Evacuate labs during breaches",
-      "Coordinate scientists"
+      "Access high-risk SCP containment",
+      "Coordinate Scientific Department",
+      "Supervise experiment safety"
     ],
     "O5-9 (TD)": [
       "Activate Alpha Warhead",
-      "Repair facility systems",
-      "Fix doors and keycard panels",
-      "Restore generator switches",
-      "Repair power in Sector 4",
-      "Maintain emergency systems"
+      "Override facility systems",
+      "Repair doors and electrical boxes",
+      "Restore power and containment controls",
+      "Maintain emergency systems in the control ceneter"
     ]
-  }
+  },
+
+  "Intelligence Agency": [
+    "Watch the CCTV (SCP bodycam's too)",
+    "Track Chaos Insurgency activity",
+    "Relay breach alerts to the radio so O5 can activate the alarm",
+    "Coordinate with Internal Security and O5"
+  ]
 };
 
 const ui1 = document.getElementById("ui1");
