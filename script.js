@@ -1,197 +1,204 @@
 const data = {
   "Class-D": [
-    "Group with other Class-D to start riots",
-    "Break doors during containment failures",
-    "Loot keycards from dead personnel",
-    "Enter SCP containment zones when breached",
-    "Side with Chaos Insurgency if freed",
-    "Escape through surface exits",
-    "Cause distractions for CI raids"
+    "Stay in the CDC and do jobs like cleaning or mining",
+    "Riot with other Class-D when possible",
+    "Turn off generators and sabotage the facility",
+    "Kill guards and take their guns",
+    "Try to escape the CDC",
+    "Join Chaos Insurgency if they free you"
   ],
 
   "Chaos Insurgency": [
-    "Raid the facility from surface entrances",
-    "Breach containment doors",
-    "Free detained Class-D personnel",
-    "Steal SCPs or cause SCP breaches",
-    "Engage Foundation Security and MTF",
-    "Hold surface and Sector 1 access points"
+    "Breach SCP containment",
+    "Free Class-D from the CDC",
+    "Kill Foundation personnel",
+    "Sabotage generators",
+    "Help escaping Class-D",
+    "Cause chaos inside the facility(You're SO mean)"
   ],
 
   "Security Department": [
+    "Guard the CDC entrance",
     "Prevent Class-D riots",
-    "Guard checkpoints and sector gates",
-    "Escort Class-D to testing chambers",
-    "Engage Chaos Insurgency raids",
-    "Respond to SCP containment breaches",
+    "Escort Class-D to testing",
+    "Kill Chaos Insurgency",
     "Protect Foundation staff"
   ],
 
   "Internal Security": [
-    "Monitor Foundation personnel behavior",
-    "Detect CI infiltrators inside the facility",
-    "Detain rogue or compromised staff",
-    "Assist Security during lockdowns",
-    "Report infiltration attempts in Sector 1"
+    "Arrest staff breaking the rules",
+    "Detain staff who help Class-D or breach SCPs",
+    "Interrogate rule breakers",
+    "Switch teams because this role sucks"
   ],
 
   "Medical Department": [
     "Heal injured personnel",
-    "Revive downed players",
-    "Extract injured staff from breach zones",
-    "Perform emergency medical procedures",
-    "Remain behind Security protection"
+    "Revive dead players",
+    "Support Foundation forces during combat"
   ],
 
   "Technical Department": [
-    "Repair broken doors",
-    "Restore generator power",
-    "Fix electrical boxes",
-    "Extinguish facility fires",
-    "Repair burst pipes",
-    "Maintain containment systems"
+    "Fix doors destroyed by SCPs",
+    "Repair generators sabotaged by CI",
+    "Fix electrical outlets shot by CI",
+    "Clean graffiti off walls"
   ],
 
   "Scientific Department": [
-    "Conduct SCP testing using Class-D",
-    "Observe SCP reactions during experiments",
-    "Evacuate labs during breaches",
-    "Access Euclid containment zones",
-    "Coordinate with Security during experiments"
+    "Use Class-D as test subjects",
+    "Watch Class-D freak during dangerous SCP tests"
   ],
 
   "Foundation Personnel": {
-    "Observer": [
-      "Remain in administrative zones",
-      "Observe facility operations",
-      "Do not engage in combat",
-      "Evacuate during breaches"
+    "Foundation Personnel": [
+      "Stand around and watch tests",
+      "Serve as XP for hostile teams",
+      "You are pointless bru"
     ],
     "Kitchen Chef": [
-      "Prepare meals for staff",
-      "Deliver food to cafeterias",
-      "Maintain kitchen equipment",
-      "Assist during emergencies"
+      "Cook beetroot soup in the CDC cafeteria"
     ],
     "Ethics Committee": [
-      "Monitor ethical conduct of experiments",
-      "Approve or deny Class-D testing",
-      "Document violations",
-      "Intervene if unethical practices occur"
+      "Watch SCP tests",
+      "Make sure scientists do not unauthorize players when they're out of CDC"
     ],
     "External Affairs": [
-      "Manage public and media exposure",
-      "Coordinate misinformation during breaches",
-      "Assist evacuation announcements",
-      "Report externally relevant events"
+      "Do nothing"
     ]
   },
 
   "Facility Executive": [
-    "Access all administrative and restricted zones",
-    "Coordinate Security, MTF, and Foundation operations",
-    "Supervise containment and evacuation protocols",
-    "Authorize facility-wide procedures",
-    "Escort VIP personnel when needed"
+    "Watch all facility operations",
+    "Watch Class-D testing",
+    "Guard the CDC exit from the outside",
+    "Shoot escaping Class-D",
+    "Call out broken systems to Technical Department",
+    "Report dead players to Medical Department",
+    "Announce SCP breaches, Chaos raids, and riots"
   ],
 
   "Mobile Task Force": {
     "Nu-7": [
-      "Secure surface zones",
-      "Engage Chaos Insurgency forces",
-      "Hold exterior breach points",
-      "Provide heavy fire support"
+      "Guard checkpoints",
+      "Guard the CDC door",
+      "Kill Chaos Insurgency",
+      "Kill escaping Class-D",
+      "Recontain SCPs",
+      "Recontain SCP-106 by entering his Containment Cell"
     ],
     "Beta-7": [
-      "Contain hazardous SCP zones",
-      "Operate in toxic/anomalous areas",
-      "Support medical extraction teams"
+      "Guard checkpoints",
+      "Guard the CDC door",
+      "Kill Chaos Insurgency",
+      "Kill escaping Class-D",
+      "Recontain SCPs",
+      "Recontain SCP-106 by entering his Containment Cell"
     ],
     "Epsilon-11": [
-      "Recontain escaped SCPs",
-      "Sweep breached facility sectors",
-      "Escort scientists during emergencies",
-      "Enforce facility lockdowns"
+      "Guard checkpoints",
+      "Guard the CDC door",
+      "Kill Chaos Insurgency",
+      "Kill escaping Class-D",
+      "Recontain SCPs",
+      "Recontain SCP-106 by entering his Containment Cell"
     ],
     "Epsilon-9": [
-      "Track Euclid anomalies",
-      "Scout breach areas",
-      "Support sector containment operations"
+      "Guard checkpoints",
+      "Guard the CDC door",
+      "Kill Chaos Insurgency",
+      "Kill escaping Class-D",
+      "Recontain SCPs",
+      "Recontain SCP-106 by entering his Containment Cell"
     ],
     "Tau-5": [
-      "Respond to Keter-class breaches",
-      "Secure high-risk containment zones",
-      "Engage extreme anomalies",
-      "Operate in Sector 4"
+      "Guard checkpoints",
+      "Guard the CDC door",
+      "Kill Chaos Insurgency",
+      "Kill escaping Class-D",
+      "Bag SCP-096",
+      "Recontain SCPs",
+      "Recontain SCP-106 by entering his Containment Cell"
     ]
   },
 
   "Alpha-1": [
-    "Escort O5 members",
-    "Secure O5 movement routes",
-    "Eliminate internal threats",
-    "Respond to critical facility alerts",
-    "Remain with O5 at all times"
+    "Protect O5 members",
+    "Kill/Recontain hostile SCPs",
+    "Kill Chaos Insurgency",
+    "Kill rogue Class-D",
+    "Gain XP for guarding O5"
   ],
 
   "O5 Council": {
-    "O5-1 (FD)": [
-      "Activate Alpha Warhead",
-      "Override all access levels",
-      "Authorize facility lockdowns",
-      "Move freely between sectors",
-      "Remain protected by Alpha-1"
+    "O5-1 (Facility Executive)": [
+      "Control the entire facility",
+      "Guard the CDC",
+      "Respond to all threats"
     ],
-    "O5-2 (IS)": [
-      "Activate Alpha Warhead",
-      "Authorize internal security operations",
-      "Order detainment of personnel",
-      "Coordinate Internal Security response",
-      "Override access restrictions"
+    "O5-2 (Internal Security)": [
+      "Arrest rule-breaking staff",
+      "Use the control center",
+      "Monitor CCTV",
+      "Track broken generators",
+      "Tell Technical Department about issues over the radio"
     ],
-    "O5-3 (A1)": [
-      "Activate Alpha Warhead",
-      "Command Alpha-1 units",
-      "Respond to internal crises",
-      "Secure command zones",
-      "Coordinate facility response"
+    "O5-3 (Alpha-1)": [
+      "Protect O5 members",
+      "Kill Chaos Insurgency",
+      "Kill rogue Class-D",
+      "Respond to facility threats",
+      "Assist any department when needed"
     ],
-    "O5-4 (IA)": [
-      "Activate Alpha Warhead",
-      "Track Chaos Insurgency activity",
-      "Recieve breach intelligence",
-      "Coordinate Internal Security and MTF"
+    "O5-4 (Intelligence Agency)": [
+      "Guard the CDC door",
+      "Guard the Sector 1 checkpoint",
+      "Check for Chaos Insurgency raiding",
+      "Kill escaping Class-D"
     ],
-    "O5-5 (MTF)": [
-      "Activate Alpha Warhead",
-      "Deploy Mobile Task Forces",
-      "Authorize MTF entry",
-      "Coordinate large-scale responses",
-      "Support containment operations"
+    "O5-5 (Mobile Task Force)": [
+      "Guard the CDC",
+      "Kill Chaos Insurgency",
+      "Kill rogue Class-D",
+      "Recontain SCPs"
     ],
-    "O5-7 (SD)": [
-      "Activate Alpha Warhead",
-      "Approve SCP testing",
-      "Access high-risk SCP containment",
-      "Coordinate Scientific Department",
-      "Supervise experiment safety"
+    "O5-6 (Security Department)": [
+      "Guard the CDC",
+      "Prevent riots",
+      "Kill escaping Class-D",
+      "Kill Chaos Insurgency"
     ],
-    "O5-9 (TD)": [
-      "Activate Alpha Warhead",
-      "Override facility systems",
-      "Repair doors and electrical boxes",
-      "Restore power and containment controls",
-      "Maintain emergency systems in the control ceneter"
+    "O5-7 (Scientific Department)": [
+      "Use Class-D for SCP testing",
+      "Bring Class-D to Sector 4 for Keter tests"
+    ],
+    "O5-8 (Medical Department)": [
+      "Heal injured personnel",
+      "Revive dead players"
+    ],
+    "O5-9 (Technical Department)": [
+      "Repair broken doors",
+      "Fix generators",
+      "Restore power"
+    ],
+    "O5-10 (Ethics Committee)": [
+      "Watch SCP tests",
+      "Ensure testing rules are followed"
+    ],
+    "O5-11 (External Affairs)": [
+      "Do nothing"
     ]
   },
 
   "Intelligence Agency": [
-    "Watch the CCTV (SCP bodycam's too)",
-    "Track Chaos Insurgency activity",
-    "Relay breach alerts to the radio so O5 can activate the alarm",
-    "Coordinate with Internal Security and O5"
+    "Track Chaos Insurgency through walls",
+    "Recontain SCPs",
+    "Kill Chaos Insurgency",
+    "Kill hostile Class-D",
+    "Respond when walls or vents are destroyed"
   ]
 };
+
 
 const ui1 = document.getElementById("ui1");
 const ui2 = document.getElementById("ui2");
