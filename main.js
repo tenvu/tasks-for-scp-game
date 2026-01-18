@@ -3,18 +3,21 @@ const path = require("path");
 
 function createWindow() {
   const win = new BrowserWindow({
-    width: 460,      
-    height: 560,     
+    width: 350,
+    height: 454,
     resizable: false,
-    frame: false,    
-    alwaysOnTop: true, 
+    frame: false,
+    alwaysOnTop: true,
+    transparent: true,
+    x: 1220,
+    y: 0,
     webPreferences: {
-      preload: path.join(__dirname, "preload.js"),
-    },
+      preload: path.join(__dirname, "preload.js")
+    }
   });
 
   win.loadFile("index.html");
-  win.setMenuBarVisibility(false); 
+  win.setMenuBarVisibility(false);
 }
 
 app.whenReady().then(createWindow);
